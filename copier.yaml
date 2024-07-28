@@ -51,7 +51,7 @@ repository_name:
   help: "repository name"
 
 repository_url:
-  default: "https://github.com/{{ package_namespace }}/{{ repository_name }}/"
+  default: "https://github.com/{{ package_namespace }}/{{ repository_name }}"
   type: str
   help: "The repository's URL, e.g. 'https://github.com/<org>/<repo>/'"
 
@@ -69,3 +69,13 @@ python_constraint:
   default: ">=3.10,<3.13"
   type: str
   help: "Python version constraint"
+
+max_line_length:
+  default: 120
+  type: int
+  help: "Define the maximum allowed line length."
+
+is_typed:
+  default: true
+  type: bool
+  help: "This package provides type hints."
