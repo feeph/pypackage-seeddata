@@ -1,17 +1,15 @@
-# libpython-template
+# pypackage-seeddata
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![copier](https://img.shields.io/badge/copier-ab79d2)](https://copier.readthedocs.io/)
 
-cookiecutter template for Python-based libraries / packages
+This repository is intended to be used together with 'pypackage-template'.
 
-- opinionated
-- use namespace packages to avoid naming collisions
-- use pdm, pyenv & tox for all our development needs
-- use dependabot, pdm, pre-commit & release-please for all our packaging needs
+__Please refer to https://github.com/feeph/pypackage-template/blob/master/README.md for intended usage.__
 
 ## Bugs & Features
 
-Please submit bugs and feature requests on the [issue tracker]( https://github.com/feeph/libpython-template/issues).
+Please submit bugs and feature requests on the [issue tracker]( https://github.com/feeph/pypackage-seeddata/issues).
 
 Contributions are always welcome.
 
