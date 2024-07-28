@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/feeph/pypackage-seeddata/compare/v0.1.0...v0.1.1) (2024-07-28)
+
+
+### Bug Fixes
+
+* do not require class and function docstrings in tests ([#2](https://github.com/feeph/pypackage-seeddata/issues/2)) ([0a06d5b](https://github.com/feeph/pypackage-seeddata/commit/0a06d5bf5e1c711aad9a5fe0dfdecb4f5b40bcd0))
+
 ## 0.1.0 (2024-07-28)
 
 
